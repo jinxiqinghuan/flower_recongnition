@@ -38,7 +38,7 @@ def evaluate_one_image(image_array):
         x = tf.placeholder(tf.float32, shape=[64, 64, 3])
 
         # you need to change the directories to yours.
-        logs_train_dir = 'D:/flower_recongnition/model'
+        logs_train_dir = 'D:/ML/flower/save2'
 
         saver = tf.train.Saver()
 
